@@ -19,7 +19,7 @@ To get started with this project, ensure you have Node.js and PostgreSQL install
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/node-postgres-cli.git
+   git clone git@github.com:whoenig44/TeamPulse-App.git
    ```
 2. Navigate to the project directory:
    ```
@@ -29,9 +29,11 @@ To get started with this project, ensure you have Node.js and PostgreSQL install
    ```
    npm install
    ```
-4. Create a `.env` file in the root directory and add your PostgreSQL connection string:
+4. Create a `.env` file in the root directory and add your PostgreSQL connection variables:
    ```
-   DATABASE_URL=your_database_connection_string
+   DB_USER=<postgres user>
+   DB_PASSWORD=<your password>
+   DB_NAME=teampulse
    ```
 
 ## Usage
@@ -77,7 +79,7 @@ The application allows you to:
 
 Feel free to checkout a video tutorial at the following link!!!
 
-- [Tutorial Video](URL)
+- [Tutorial Video](https://drive.google.com/file/d/1gzh_X8cdb8A-HTrT6KfslK1_jqnTLyQk/view)
 
 ## License
 
