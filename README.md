@@ -1,4 +1,4 @@
-# Node PostgreSQL CLI
+# TeamPulse CLI-Application
 
 This project is a command-line interface application that interacts with a PostgreSQL database to manage employees, roles, and departments. It utilizes the `pg` package for database connectivity and the `Inquirer` package for user interaction.
 
